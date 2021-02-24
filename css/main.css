@@ -1,0 +1,49 @@
+header {
+    background: url(https://pbs.twimg.com/media/DeIu1OvW4AcYWHK.jpg:large);
+    background-attachment: fixed;
+}
+
+.jumbotron-fluid {
+    background: rgba(0, 0, 0, 0.578);
+    align-items: center;
+}
+
+header .jumbotron-fluid {
+    height: 100vh;
+}
+
+h1,
+.h1 {
+    font-weight: 500 !important;
+    font-size: 2em !important;
+}
+
+
+/*Основная часть*/
+
+main .container-fluid {
+    padding: 7%;
+}
+
+.bigger {
+    font-size: 1.2em;
+}
+
+@media (min-width: 992px) {
+    h1,
+    .h1 {
+        font-size: 4em !important;
+    }
+}
+
+
+/*Футер*/
+
+footer {
+    background: url(https://pbs.twimg.com/media/DeIu1OvW4AcYWHK.jpg:large);
+    background-attachment: fixed;
+}
+
+footer .jumbotron-fluid {
+    height: 95vh;
+}
